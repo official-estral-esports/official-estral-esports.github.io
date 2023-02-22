@@ -1,2 +1,0 @@
-# eSports
-eSports Website
