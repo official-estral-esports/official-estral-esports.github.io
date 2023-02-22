@@ -1,0 +1,118 @@
+/* font-family: 'Cabin', sans-serif; */
+
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#home-section {
+    background: url(img/RBGLogoBackground.jpg) no-repeat center center fixed;
+    display: block;
+    position: relative;
+    background-position: 0 75px;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.doodad {
+    background-color: #BD2830 !important;
+}
+
+/* To do: make the active page have black text and all others have white with black hover. Also want the dropdown to activate on hover
+*/ 
+
+.nav-link {
+    font-size: 23px;
+}
+
+/* News */
+.news {
+    width: 400px;
+}
+
+.news-container {
+    margin-top: 100px;
+    width: 900px;
+    text-align: center !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.learn-more-btn {
+    background-color: #BB2B34;
+    color: white;
+}
+
+
+
+/* Events */
+
+.events-container {
+    margin-top: 50px;
+}
+
+/*  Twitch: #6441a5
+    Smash.gg: #C9353F
+    Discord: #7086D3
+    Twitter: #2AA3EF
+*/
+
+.twitch-btn {
+    background-color: #6441a5;
+    color: white;
+}
+
+.smash-btn {
+    background-color: #C9353F;
+    color: white;
+}
+
+.discord-btn {
+    background-color: #7086D3;
+    color: white;
+}
+
+.twitter-btn {
+    background-color: #2AA3EF;
+    color: white;           
+}
+
+
+/* Teams */
+.teams-container {
+    margin-top: 100px;
+}
+
+/* Contact Form */
+
+.contact-form {
+    margin-top: 160px;
+}
+
+/* Media queries */
+
+
+@media all and (max-width: 1200px) { /* screen size until 1200px */
+    body {
+        font-size: 1.5em; /* 1.5x default size */
+    }
+}
+@media all and (max-width: 1000px) { /* screen size until 1000px */
+    body {
+        font-size: 1.2em; /* 1.2x default size */
+        }
+    }
+@media all and (max-width: 500px) { /* screen size until 500px */
+    body {
+        font-size: 0.8em; /* 0.8x default size */
+        }
+    }
+
+
+
